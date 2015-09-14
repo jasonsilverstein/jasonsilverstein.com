@@ -1,0 +1,9 @@
+Title: Full Width
+
+----
+
+Link-url: page-template-full-width
+
+----
+
+Link-target: 

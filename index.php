@@ -1,96 +1,16 @@
-<?
-srand ((float) microtime() * 10000000);
-$input = array ("001", "003", "005", "006", "008", "010","011","013");
-$randKey = array_rand($input);
-?>
+<?php
 
-<html>
-<head>
-<title>Jason Silverstein</title>
+define('DS', DIRECTORY_SEPARATOR);
 
-<meta charset="UTF-8">
-<meta name="description" content="The personal website of Jason B. Silverstein."> 
-<meta name="keywords" content="Jason Silverstein, Silverstein, Jason, Silverstein Kirkland, Jason Silverstein Dallas, product development">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+// load kirby
+require(__DIR__ . DS . 'kirby' . DS . 'bootstrap.php');
 
-<script language="javascript" type="text/javascript">
-function showHide(shID) {
-   if (document.getElementById(shID)) {
-      if (document.getElementById(shID+'-show').style.display != 'none') {
-         document.getElementById(shID+'-show').style.display = 'none';
-         document.getElementById(shID).style.display = 'block';
-      }
-      else {
-         document.getElementById(shID+'-show').style.display = 'inline';
-         document.getElementById(shID).style.display = 'none';
-      }
-   }
+// check for a custom site.php
+if(file_exists(__DIR__ . DS . 'site.php')) {
+  require(__DIR__ . DS . 'site.php');
+} else {
+  $kirby = kirby();
 }
-</script>
 
-<style>	
-
-@font-face {font-family: 'aleo-regular-webfont';src: url('css/aleo-regular-webfont.eot');src: url('css/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),url('css/aleo-regular-webfont.woff') format('woff'),url('css/aleo-regular-webfont.ttf') format('truetype');}
- 
-* { margin: 0; padding: 0; }
-
-body { 
-	background: url(img/<? echo $input[$randKey]; ?>.jpg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color: black;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	}
-
-#top { 
-	padding: 20px 30px 25px 25px;
-	margin-top:0px;
-	position: absolute;
-    top: 20px;
-    left: 20px;
-	background: black;
-	opacity: 0.5;
-	}
-
-p {	font: 16px aleo-regular-webfont, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; }
-a { color: #fff; text-decoration: none; border-bottom: 1px solid; }
-a:hover { color: #5ea9dd; text-decoration: none; border-bottom: 1px solid #5ea9dd; }
-h1 { display: none; }
-
-</style>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-5936341-2']);
-  _gaq.push(['_setDomainName', 'jasonsilverstein.com']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-  
-</script> 
-
-</head>
-	<body>
-			<div id="top">
-				<p>	
-					<a href="mailto:jason.silverstein+sitequestion@gmail.com?subject=site_question" title="Send an email"><strong>contact/email</strong></a><br /><br />
-					<a href="http://jason.news">jason.news</a> (twitter)<br />
-					<a href="http://jason.engineering">jason.engineering</a> (linkedin)<br />
-					<a href="http://jason.pictures">jason.pictures</a> (instagram)<br />
-					<a href="http://jason.team">jason.team</a> (quora)<br />
-					<a href="http://jason.run">jason.run</a> (strava)<br />
-					<br />
-					<a href="https://www.evernote.com/l/AASwPxi5YXJIIqRDPF8JC_jatYbZFvYZF7Y">huh? &raquo;</a>
-				</p>
-			</div>
-	</body>
-</html>
+// render
+echo $kirby->launch();

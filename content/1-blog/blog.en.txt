@@ -1,0 +1,13 @@
+Title: Blog
+
+----
+
+Meta-title: 
+
+----
+
+Intro-text: A beautifully minimal and responsive microblog-style Kirby theme. Manila’s post types are ideal for bloggers, podcasters and creatives while the built-in portfolio provides the perfect showcase for your work.
+
+----
+
+Page-heading-visible: 

@@ -1,0 +1,9 @@
+Title: RSS Feed
+
+----
+
+Link-url: blog/feed
+
+----
+
+Link-target: 1
