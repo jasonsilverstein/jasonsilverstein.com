@@ -67,7 +67,8 @@ h1 { display: none; }
 	<body>
 			<div id="top">
 				<p><a href="mailto:jason.silverstein+sitequestion@gmail.com?subject=site_question" title="Send an email"><strong>contact/email</strong></a></p>
-        <p>Husband. Dad. VP, Product &amp; Engineering at <a href="http://rightside.co">Rightside</a>.</p>
+        <p>Husband. Dad.</p>
+        <p>VP, Product &amp; Engineering at <a href="http://rightside.co">Rightside</a>.</p>
         <p>Board, <a href="http://f3nation.com">F3</a>/<a href="http://theironproject.com">The Iron Project</a>.</p>
         <p>Find me elsewhere:</p>
         <p>
