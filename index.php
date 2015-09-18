@@ -9,32 +9,17 @@ $randKey = array_rand($input);
 <title>Jason Silverstein</title>
 
 <meta charset="UTF-8">
-<meta name="description" content="The personal website of Jason B. Silverstein."> 
+<meta name="description" content="The personal website of Jason B. Silverstein.">
 <meta name="keywords" content="Jason Silverstein, Silverstein, Jason, Silverstein Kirkland, Jason Silverstein Dallas, product development">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<script language="javascript" type="text/javascript">
-function showHide(shID) {
-   if (document.getElementById(shID)) {
-      if (document.getElementById(shID+'-show').style.display != 'none') {
-         document.getElementById(shID+'-show').style.display = 'none';
-         document.getElementById(shID).style.display = 'block';
-      }
-      else {
-         document.getElementById(shID+'-show').style.display = 'inline';
-         document.getElementById(shID).style.display = 'none';
-      }
-   }
-}
-</script>
-
-<style>	
+<style>
 
 @font-face {font-family: 'aleo-regular-webfont';src: url('css/aleo-regular-webfont.eot');src: url('css/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),url('css/aleo-regular-webfont.woff') format('woff'),url('css/aleo-regular-webfont.ttf') format('truetype');}
- 
+
 * { margin: 0; padding: 0; }
 
-body { 
+body {
 	background: url(img/<? echo $input[$randKey]; ?>.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -46,12 +31,12 @@ body {
 	-o-background-size: cover;
 	}
 
-#top { 
+#top {
 	padding: 20px 30px 25px 25px;
 	margin-top:0px;
 	position: absolute;
-    top: 20px;
-    left: 20px;
+  top: 20px;
+  left: 20px;
 	background: black;
 	opacity: 0.5;
 	}
@@ -75,14 +60,15 @@ h1 { display: none; }
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-  
-</script> 
+
+</script>
 
 </head>
 	<body>
 			<div id="top">
-				<p>	
-					<a href="mailto:jason.silverstein+sitequestion@gmail.com?subject=site_question" title="Send an email"><strong>contact/email</strong></a><br /><br />
+				<p><a href="mailto:jason.silverstein+sitequestion@gmail.com?subject=site_question" title="Send an email"><strong>contact/email</strong></a></p>
+        <p>Husband. Dad. VP, Product &amp; Engineering at <a href="http://rightside.co">Rightside</a>. Board, <a href="http://f3nation.com">F3</a>/<a href="http://theironproject.com">The Iron Project</a>. Find me elsewhere:</p>
+        <p>
 					<a href="http://jason.news">jason.news</a> (twitter)<br />
 					<a href="http://jason.engineering">jason.engineering</a> (linkedin)<br />
 					<a href="http://jason.pictures">jason.pictures</a> (instagram)<br />
