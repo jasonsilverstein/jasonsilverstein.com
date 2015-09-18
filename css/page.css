@@ -1,0 +1,79 @@
+/* Aleo */
+@font-face {font-family: 'aleo-bold-webfont';src: url('../css/aleo-bold-webfont.eot');src: url('../css/aleo-bold-webfont.eot?#iefix') format('embedded-opentype'),url('../css/aleo-bold-webfont.woff') format('woff'),url('../css/aleo-bold-webfont.ttf') format('truetype');}  
+@font-face {font-family: 'aleo-light-webfont';src: url('../css/aleo-light-webfont.eot');src: url('../css/1aleo-light-webfont.eot?#iefix') format('embedded-opentype'),url('../css/aleo-light-webfont.woff') format('woff'),url('../css/aleo-light-webfont.ttf') format('truetype');}
+@font-face {font-family: 'aleo-regular-webfont';src: url('../css/aleo-regular-webfont.eot');src: url('../css/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),url('../css/aleo-regular-webfont.woff') format('woff'),url('../css/aleo-regular-webfont.ttf') format('truetype');}
+
+/* Proxima */
+@font-face {font-family: 'ProximaNovaS-Light';src: url('../css/1BAC03_0_0.eot');src: url('../css/1BAC03_0_0.eot?#iefix') format('embedded-opentype'),url('../css/1BAC03_0_0.woff') format('woff'),url('../css/1BAC03_0_0.ttf') format('truetype');}
+@font-face {font-family: 'ProximaNovaA-Light';src: url('../css/1BAC03_1_0.eot');src: url('../css/1BAC03_1_0.eot?#iefix') format('embedded-opentype'),url('../css/1BAC03_1_0.woff') format('woff'),url('../css/1BAC03_1_0.ttf') format('truetype');}
+@font-face {font-family: 'ProximaNova-Light';src: url('../css/1BAC03_2_0.eot');src: url('../css/1BAC03_2_0.eot?#iefix') format('embedded-opentype'),url('../css/1BAC03_2_0.woff') format('woff'),url('../css/1BAC03_2_0.ttf') format('truetype');}
+ 
+
+
+	body {
+		background: #fff;
+		font: 18px/26px "aleo-light-webfont", "ProximaNova-Light", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #666;
+		font-weight: 500;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+
+
+/* #Typography
+================================================== */
+	h1 {
+		color: /*#181818*/ /*#333*/ #b5b5b5;
+		font-family: "aleo-regular-webfont","ProximaNova-Light", "Georgia", "Times New Roman", serif;
+		margin:0;
+		margin-top: 10px;
+		padding:0 5px;
+		font-weight: normal; }
+	h2, h3 {
+		color: #797979;
+		font-family: "aleo-regular-webfont","ProximaNova-Light", "Georgia", "Times New Roman", serif;
+		margin: 20px 3;
+		padding:0 5px;
+		font-weight: normal; }
+	h4, h5, h6 {
+		color: /*#181818*/ #959595;
+		font-family: "aleo-regular-webfont","ProximaNova-Light", "Georgia", "Times New Roman", serif;
+		margin-left: 3px;
+		padding:0 5px;
+		 }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 34px; line-height: 34px; margin-bottom: 4px;}
+	h2 { font-size: 28px; line-height: 30px; margin-bottom: 20px; margin-top:40px; }
+	h3 { font-size: 22px; line-height: 34px; margin-bottom: 3px; }
+	h4 { font-size: 18px; line-height: 30px; margin-bottom: 8px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 3px 20px 3px; padding:3px; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: dotted #ddd; border-width: 1px 0 0; clear: both; margin: 2px 30px 5px 0; height: 0; }
+
+
+/* #Links
+================================================== */
+	a, a:visited { color: #428bca; text-decoration: underline; outline: 0; }
+	a:hover, a:focus { color: #000; }
+	p a, p a:visited { line-height: inherit; }
+
+
+
+

@@ -1,9 +1,0 @@
-Title: Narrow
-
-----
-
-Link-url: page-template-narrow
-
-----
-
-Link-target: 

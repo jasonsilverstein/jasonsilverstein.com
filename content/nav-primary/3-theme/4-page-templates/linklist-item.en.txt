@@ -1,9 +1,0 @@
-Title: Page Templates
-
-----
-
-Link-url: 
-
-----
-
-Link-target: 
