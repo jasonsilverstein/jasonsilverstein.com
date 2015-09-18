@@ -66,11 +66,11 @@ h1 { display: none; }
 </head>
 	<body>
 			<div id="top">
-				<p><a href="mailto:jason.silverstein+sitequestion@gmail.com?subject=site_question" title="Send an email"><strong>contact/email</strong></a></p>
+				<p><a href="mailto:jason.silverstein+sitequestion@gmail.com?subject=site_question" title="Send an email"><strong>contact/email</strong> &raquo;</a></p>
         <p>Husband. Dad.<br />
-        VP, Product &amp; Engineering at <a href="http://rightside.co">Rightside</a>.<br />
+        VP, Product &amp; Engineering, <a href="http://rightside.co">Rightside</a>.<br />
         Board, <a href="http://f3nation.com">F3</a>/<a href="http://theironproject.com">The Iron Project</a>.</p>
-        <p>Find me elsewhere:</p>
+        <p>Elsewhere:</p>
         <p>
 					<a href="http://jason.news">jason.news</a> (twitter)<br />
 					<a href="http://jason.engineering">jason.engineering</a> (linkedin)<br />
@@ -78,7 +78,7 @@ h1 { display: none; }
 					<a href="http://jason.team">jason.team</a> (quora)<br />
 					<a href="http://jason.run">jason.run</a> (strava)<br />
 					<br />
-					<a href="https://www.evernote.com/l/AASwPxi5YXJIIqRDPF8JC_jatYbZFvYZF7Y">huh? &raquo;</a>
+					<a href="https://www.evernote.com/l/AASwPxi5YXJIIqRDPF8JC_jatYbZFvYZF7Y">about the links</a>
 				</p>
 			</div>
 	</body>
