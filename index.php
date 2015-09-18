@@ -41,7 +41,7 @@ body {
 	opacity: 0.5;
 	}
 
-p {	font: 16px aleo-regular-webfont, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; }
+p {	font: 16px aleo-regular-webfont, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
 a { color: #fff; text-decoration: none; border-bottom: 1px solid; }
 a:hover { color: #5ea9dd; text-decoration: none; border-bottom: 1px solid #5ea9dd; }
 h1 { display: none; }
@@ -67,7 +67,9 @@ h1 { display: none; }
 	<body>
 			<div id="top">
 				<p><a href="mailto:jason.silverstein+sitequestion@gmail.com?subject=site_question" title="Send an email"><strong>contact/email</strong></a></p>
-        <p>Husband. Dad. VP, Product &amp; Engineering at <a href="http://rightside.co">Rightside</a>. Board, <a href="http://f3nation.com">F3</a>/<a href="http://theironproject.com">The Iron Project</a>. Find me elsewhere:</p>
+        <p>Husband. Dad. VP, Product &amp; Engineering at <a href="http://rightside.co">Rightside</a>.</p>
+        <p>Board, <a href="http://f3nation.com">F3</a>/<a href="http://theironproject.com">The Iron Project</a>.</p>
+        <p>Find me elsewhere:</p>
         <p>
 					<a href="http://jason.news">jason.news</a> (twitter)<br />
 					<a href="http://jason.engineering">jason.engineering</a> (linkedin)<br />
