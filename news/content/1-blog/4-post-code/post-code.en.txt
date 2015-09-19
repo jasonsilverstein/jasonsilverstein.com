@@ -1,0 +1,65 @@
+Title: Code Post
+
+----
+
+Meta-title: 
+
+----
+
+Text: 
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. <a href="#">Mauris placerat eleifend</a> leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+
+----
+
+Custom-excerpt: Paste a GitHub Gist URL or even raw code into the post settings and the theme will take care of the rest. Gists will be embedded just like you see above and raw code will be nicely formatted using the prism.js syntax highlighter.
+
+----
+
+Gist-url: https://gist.github.com/tyson/c33d6a583802203fdd23
+
+----
+
+Inline-code: 
+
+<!-- This is a comment. -->
+
+<div class="row">
+  <div class="large-12 columns">
+    <a href="/collections/all">
+      <img src="image.jpg" alt="" />
+    </a>
+  </div>
+</div>
+
+----
+
+Inline-code-language: markup
+
+----
+
+Excerpt-type: custom
+
+----
+
+Tags: tag1,tag2,tag3,tag4
+
+----
+
+Author-username: admin
+
+----
+
+Date-published: 2015-01-04
+
+----
+
+Comments-enabled: 1
+
+----
+
+Page-heading-visible: 1
