@@ -1401,7 +1401,7 @@ footer#app-footer { margin: 0 auto; max-width: 1200px; }
 
 /* Typography */
 /*-------------------------------------------------- */
-body, h1, h2, h3, h4, h5, h6 { font-family: "Lato", Helvetica, Arial, sans-serif; }
+  body, h1, h2, h3, h4, h5, h6 { font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 h1 { font-size: 1.75rem; line-height: 1.625em; font-weight: 700; }
 
@@ -1414,7 +1414,7 @@ strong { font-weight: bold; }
 /* Header */
 /*-------------------------------------------------- */
 header#app-header { margin-bottom: 2.34375rem; }
-header#app-header .brand { font-size: 2.75rem; line-height: 1; font-family: "Pacifico", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; margin: 0 0 1.875rem 0; text-align: center; }
+header#app-header .brand { font-size: 2.75rem; line-height: 1; font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; margin: 0 0 1.875rem 0; text-align: center; }
 header#app-header .brand a { color: #434449; -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; transition: all 0.1s ease; }
 header#app-header .brand img { margin: 0 auto; }
 header#app-header .accent-line { margin: 1.875rem 0 0 0; }
