@@ -13,6 +13,8 @@ $randKey = array_rand($input);
 <meta name="keywords" content="Jason Silverstein, Silverstein, Jason, Silverstein Kirkland, Jason Silverstein Dallas, product development">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
 <style>
 
 @font-face {font-family: 'aleo-regular-webfont';src: url('css/aleo-regular-webfont.eot');src: url('css/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),url('css/aleo-regular-webfont.woff') format('woff'),url('css/aleo-regular-webfont.ttf') format('truetype');}
@@ -41,7 +43,7 @@ body {
 	opacity: 0.7;
 	}
 
-p {	font: 16px aleo-regular-webfont, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
+p {	font: 16px Lato, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
 a { color: #fff; text-decoration: none; border-bottom: 1px solid; }
 a:hover { color: #5ea9dd; text-decoration: none; border-bottom: 1px solid #5ea9dd; }
 h1 { display: none; }
