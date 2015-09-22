@@ -17,6 +17,18 @@ $randKey = array_rand($input);
 
 <style>
 
+/* Webfont: Lato-Regular */@font-face {
+    font-family: 'LatoWeb';
+    src: url('css/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('css/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('css/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('css/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('css/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
 @font-face {font-family: 'aleo-regular-webfont';src: url('css/aleo-regular-webfont.eot');src: url('css/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),url('css/aleo-regular-webfont.woff') format('woff'),url('css/aleo-regular-webfont.ttf') format('truetype');}
 
 * { margin: 0; padding: 0; }
@@ -43,11 +55,11 @@ body {
 	opacity: 0.7;
 	}
 
-p {	font: 16px Lato, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
+p {	font: 16px LatoWeb, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
 a { color: #fff; text-decoration: none; border-bottom: 1px solid; }
 a:hover { color: #5ea9dd; text-decoration: none; border-bottom: 1px solid #5ea9dd; }
 h1 { display: none; }
-h2 { font: 20px Lato, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
+h2 { font: 20px LatoWeb, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
 
 </style>
 
