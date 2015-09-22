@@ -13,8 +13,6 @@ $randKey = array_rand($input);
 <meta name="keywords" content="Jason Silverstein, Silverstein, Jason, Silverstein Kirkland, Jason Silverstein Dallas, product development">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
-
 <style>
 
 /* Webfont: Lato-Regular */@font-face {
