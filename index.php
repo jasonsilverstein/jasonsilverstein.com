@@ -27,8 +27,6 @@ $randKey = array_rand($input);
     text-rendering: optimizeLegibility;
 }
 
-@font-face {font-family: 'aleo-regular-webfont';src: url('css/aleo-regular-webfont.eot');src: url('css/aleo-regular-webfont.eot?#iefix') format('embedded-opentype'),url('css/aleo-regular-webfont.woff') format('woff'),url('css/aleo-regular-webfont.ttf') format('truetype');}
-
 * { margin: 0; padding: 0; }
 
 body {
@@ -53,7 +51,7 @@ body {
 	opacity: 0.7;
 	}
 
-p {	font: 16px LatoWeb, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
+p {	font: 17px LatoWeb, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
 a { color: #fff; text-decoration: none; border-bottom: 1px solid; }
 a:hover { color: #5ea9dd; text-decoration: none; border-bottom: 1px solid #5ea9dd; }
 h1 { display: none; }
