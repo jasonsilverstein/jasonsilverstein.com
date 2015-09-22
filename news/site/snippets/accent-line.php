@@ -1,1 +1,0 @@
-<div class="accent-line"></div>

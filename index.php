@@ -47,6 +47,7 @@ p {	font: 16px Lato, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24p
 a { color: #fff; text-decoration: none; border-bottom: 1px solid; }
 a:hover { color: #5ea9dd; text-decoration: none; border-bottom: 1px solid #5ea9dd; }
 h1 { display: none; }
+h2 { font: 20px Lato, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
 
 </style>
 
@@ -76,11 +77,9 @@ h1 { display: none; }
         <p>
 					<a href="http://jason.news">jason.news</a> (twitter)<br />
 					<a href="http://jason.engineering">jason.engineering</a> (linkedin)<br />
-					<a href="http://jason.pictures">jason.pictures</a> (instagram)<br />
 					<a href="http://jason.team">jason.team</a> (quora)<br />
-					<a href="http://jason.run">jason.run</a> (strava)<br />
 					<br />
-					<a href="https://www.evernote.com/l/AASwPxi5YXJIIqRDPF8JC_jatYbZFvYZF7Y">about the links</a>
+					(<a href="https://www.evernote.com/l/AASwPxi5YXJIIqRDPF8JC_jatYbZFvYZF7Y">about above domains</a>)
 				</p>
 			</div>
 	</body>
