@@ -73,13 +73,11 @@ h2 { font: 20px Lato, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24
         <p>Husband. Dad.<br />
         VP, Product &amp; Engineering, <a href="http://rightside.co">Rightside</a>.<br />
         Board, <a href="http://f3nation.com">F3</a>/<a href="http://theironproject.com">The Iron Project</a>.</p>
-        <p>Elsewhere:</p>
-        <p>
-					<a href="http://jason.news">jason.news</a> (twitter)<br />
-					<a href="http://jason.engineering">jason.engineering</a> (linkedin)<br />
-					<a href="http://jason.team">jason.team</a> (quora)<br />
-					<br />
-					(<a href="https://www.evernote.com/l/AASwPxi5YXJIIqRDPF8JC_jatYbZFvYZF7Y">about above domains</a>)
+        <p>Elsewhere (<a href="https://www.evernote.com/l/AASwPxi5YXJIIqRDPF8JC_jatYbZFvYZF7Y" title="Learn about these domain names and what they mean">?</a>):</p>
+        <p><!-- lazy lis -->
+					&middot; <a href="http://jason.news">jason.news</a> (twitter)<br />
+					&middot; <a href="http://jason.engineering">jason.engineering</a> (linkedin)<br />
+					&middot; <a href="http://jason.team">jason.team</a> (quora)<br />
 				</p>
 			</div>
 	</body>
