@@ -49,6 +49,12 @@ body {
   left: 20px;
 	background: black;
 	opacity: 0.7;
+  -moz-box-shadow: 0 0 3px #000;
+  -webkit-box-shadow: 0 0 3px #000;
+  box-shadow: 0 0 3px #000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 	}
 
 p {	font: 17px LatoWeb, Helvetica, Arial, Sans Serif; color: #fff; line-height: 24px; margin-bottom:20px; }
